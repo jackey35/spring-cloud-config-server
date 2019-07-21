@@ -4,6 +4,7 @@ spring:
       server:
         git:
           uri: https://github.com/jackey35/spring-cloud-config-server.git
+          search-paths: config # 仓库路径下相对搜索位置，可配置多个
       uri: http://localhost:8888
 
   application:
